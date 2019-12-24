@@ -34,4 +34,34 @@ audio{
 	position: absolute;
 	left: 46%;
 	top:70%;
+	z-index: 6;
+}
+@media(max-width: 576px)
+{
+	*{}
+
+audio {
+    position: absolute;
+    z-index: 5;
+    left: 19%;
+    width: 225px;
+    top: 51%;
+}
+
+.gif {
+    display: inline-block;
+    position: absolute;
+    left: 21%;
+    top: 36%;
+}
+
+.nen {
+    background: url(images/3.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.chuchay {
+    font-size: 26px;
+}
 }
